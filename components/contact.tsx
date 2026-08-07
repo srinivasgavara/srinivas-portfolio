@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import {
   Mail,
-  Phone,
   Download,
   Trophy,
 } from "lucide-react";
@@ -52,21 +51,6 @@ rel="noopener noreferrer"
               <h3 className="text-xl font-semibold">Email</h3>
               <p className="text-zinc-400">
                 srinivasgavara12@gmail.com
-              </p>
-            </div>
-          </motion.a>
-
-          {/* Phone */}
-          <motion.a
-            href="tel:+919573761007"
-            whileHover={{ scale: 1.03 }}
-            className="flex items-center gap-5 rounded-3xl border border-white/10 bg-zinc-900 p-8 transition hover:border-blue-500"
-          >
-            <Phone className="text-blue-500" size={30} />
-            <div>
-              <h3 className="text-xl font-semibold">Phone</h3>
-              <p className="text-zinc-400">
-                +91 95737 61007
               </p>
             </div>
           </motion.a>
