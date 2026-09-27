@@ -18,11 +18,18 @@ const certificates = [
     icon: "🗄️",
   },
   {
-    title: "ChatGPT for Everyone",
-    issuer: "GUVI",
-    year: "2025",
-    link: "/certificates/chatgpt-for-everyone.pdf",
-    icon: "🤖",
+    title: "Data Science Essentials with Python",
+    issuer: "Cisco Networking Academy",
+    year: "2026",
+    link: "/certificates/data-science-essentials.pdf",
+    icon: "📊",
+  },
+  {
+    title: "Data Analytics Essentials",
+    issuer: "Cisco Networking Academy",
+    year: "2026",
+    link: "/certificates/data-analytics-essentials.pdf",
+    icon: "📈",
   },
 ];
 
@@ -51,7 +58,7 @@ export default function Certificates() {
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-zinc-400">
             These certifications showcase my continuous learning in Python,
-            SQL, AI and modern software development.
+            SQL, data science and data analytics.
           </p>
         </motion.div>
 
